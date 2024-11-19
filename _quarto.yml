@@ -14,7 +14,7 @@ website:
       [UK Research and Innovation](https://gtr.ukri.org/projects?ref=MR%2FZ503915%2F1)
     center:     
       - text: "License"
-        href: stars_simmer/www/txt/license.qmd
+        href: stars_simmer/www/txt/license.md
       - text: "Citation"
         href: stars_simmer/www/txt/citation.qmd
     right:

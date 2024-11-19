@@ -1,7 +1,6 @@
 ---
 title: "License"
-format: live-html
-editor: visual
+format: html
 ---
 
 MIT License

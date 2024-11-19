@@ -1,7 +1,6 @@
 ---
 title: "Citation"
-format: live-html
-editor: visual
+format: html
 ---
 
 This project is a **work in progress** towards the STARS 2.0 framework. You are free to use and build on the work in the interim. For now, if you do adapt or use this material we would be very grateful if you would cite the STARS 1.0 framework paper in the Journal of Simulation.
