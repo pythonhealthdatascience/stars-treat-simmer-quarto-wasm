@@ -15,6 +15,7 @@ webr:
 {{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
 
 We don't need to run the model code here, so very little interaction with code is required.
+Run only the Run Script.
 
 ::: {.callout-caution collapse="true" title="Model Code" icon="false"}
 ```{webr}
