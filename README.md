@@ -6,7 +6,7 @@
 [![ORCID: Heather](https://img.shields.io/badge/ORCID-0000--0002--6596--3479-brightgreen)](https://orcid.org/0000-0002-6596-3479)
 [![ORCID: Mustafee](https://img.shields.io/badge/ORCID-0000--0002--2204--8924-brightgreen)](https://orcid.org/0000-0002-2204-8924)
 
-# 💫  Sharing Tools and Artefacts for Reproducible Simulations 2.0: A DES model developed in R Simmer and deployed using Quarto Live.
+# 💫  Sharing Tools and Artefacts for Reproducible Simulations 2.0: A DES model developed in R Simmer and deployed using Quarto Live
 
 > 🏗 **WORK IN PROGRESS** (STARS 2.0) 🏗️   
   > The materials in this repo are experimental. 
