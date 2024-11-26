@@ -1,5 +1,5 @@
 ---
-title: "     Model"
+title: "Model overview"
 format: live-html
 engine: knitr
 webr:

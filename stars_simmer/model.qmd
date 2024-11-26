@@ -3,6 +3,7 @@ title: DES Model
 format: live-html
 resources:
     - data
+    - arrivals.csv
 engine: knitr
 webr:
   packages:
