@@ -1,6 +1,5 @@
 ---
 title: "About us"
-format: html
 ---
 
 This work is part of the **S**haring **T**ools and **A**rtefacts for **R**eproducible **S**imulations (STARS) in Healthcare study.
