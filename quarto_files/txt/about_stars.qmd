@@ -28,4 +28,4 @@ The model is written in `R` and `simmer`. The simulation library `simmer` uses a
 
 The interactive website was developed in `Quarto` using the `Quarto-live` extension. Quarto Live enables interactive, WebAssembly powered code blocks to be embedded into Quarto documents with HTML-based output formats.
 
-> Details and documentation can be found [here] (https://r-wasm.github.io/quarto-live/)
+> Details and documentation can be found [here](https://r-wasm.github.io/quarto-live/)

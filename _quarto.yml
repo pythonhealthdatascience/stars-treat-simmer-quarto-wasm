@@ -1,11 +1,12 @@
 project:
   type: website
-  output-dir: _site
+  preview:
+    browser: true
 
 website:
   title: "STARS"
-  image: "stars_simmer/www/nihr.png"
-  favicon: "stars_simmer/www/stars.png"
+  image: "quarto_files/nihr.png"
+  favicon: "quarto_files/stars.png"
   repo-url: https://github.com/pythonhealthdatascience
   repo-actions: [edit, issue]
   page-navigation: true
@@ -14,9 +15,9 @@ website:
       [UK Research and Innovation](https://gtr.ukri.org/projects?ref=MR%2FZ503915%2F1)
     center:     
       - text: "License"
-        href: stars_simmer/www/txt/license.qmd
+        href: quarto_files/txt/LICENSE.md
       - text: "Citation"
-        href: stars_simmer/www/txt/citation.qmd
+        href: quarto_files/txt/citation.md
     right:
       - icon: github
         href: https://github.com/pythonhealthdatascience
@@ -35,14 +36,11 @@ website:
       - text: "RUNNING THE MODEL"
       - section: "About us"
         contents:
-          - stars_simmer/www/txt/about_stars.qmd
+          - quarto_files/about_stars.qmd
       - section: "Model code"
         contents: 
           - stars_simmer/model.qmd
           - stars_simmer/model_int.qmd
- 
-
-
 
 
 format:
