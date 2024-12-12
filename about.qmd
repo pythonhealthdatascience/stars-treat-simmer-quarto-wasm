@@ -11,7 +11,7 @@ webr:
 
 Treatment process:
 
-![](stars_simmer/www/process_flow_img.png){width="100%"}
+![](quarto_files/process_flow_img.png){width="100%"}
 
 Daily arrival pattern:
 
