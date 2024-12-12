@@ -65,7 +65,12 @@
     "href": "quarto_files/txt/about_stars.html",
     "title": "About us",
     "section": "",
-    "text": "This work is part of the Sharing Tools and Artefacts for Reproducible Simulations (STARS) in Healthcare study.\nThis study is funded UK Research and Innovation (UKRI) Medical Research Council’s (MRC) Better Methods, Better Research programme.\n\n📝 Note: The model presented here is work in progress towards STARS version 2.0.\n\n\nSTARS Team\n\n\n\nMember\nORCID\n\n\n\n\nThomas Monks\n\n\n\nAlison Harper\n\n\n\nNavonil Mustafee\n\n\n\nAndrew Mayne\n\n\n\nAmy Heather\n\n\n\n\n\n\nModelling and Simulation Software\nThe model is written in R and simmer. The simulation library simmer uses a process based model worldview. Given its simplicity it is a highly flexible discrete-event simulation package.\n\nDetailed documentation for simmer can be found here: https://r-simmer.org/\n\n\n\nWebsite\nThe interactive website was developed in Quarto using the Quarto-live extension. Quarto Live enables interactive, WebAssembly powered code blocks to be embedded into Quarto documents with HTML-based output formats.\n\nDetails and documentation can be found here"
+    "text": "This work is part of the Sharing Tools and Artefacts for Reproducible Simulations (STARS) in Healthcare study.\nThis study is funded UK Research and Innovation (UKRI) Medical Research Council’s (MRC) Better Methods, Better Research programme.\n\n📝 Note: The model presented here is work in progress towards STARS version 2.0.\n\n\nSTARS Team\n\n\n\nMember\nORCID\n\n\n\n\nThomas Monks\n\n\n\nAlison Harper\n\n\n\nNavonil Mustafee\n\n\n\nAndrew Mayne\n\n\n\nAmy Heather\n\n\n\n\n\n\nModelling and Simulation Software\nThe model is written in R and simmer. The simulation library simmer uses a process based model worldview. Given its simplicity it is a highly flexible discrete-event simulation package.\n\nDetailed documentation for simmer can be found here: https://r-simmer.org/\n\n\n\nWebsite\nThe interactive website was developed in Quarto using the Quarto-live extension. Quarto Live enables interactive, WebAssembly powered code blocks to be embedded into Quarto documents with HTML-based output formats.\n\nDetails and documentation can be found here",
+    "crumbs": [
+      "Treatment Centre Simulation Model",
+      "About us",
+      "About us"
+    ]
   },
   {
     "objectID": "quarto_files/txt/overview.html",
