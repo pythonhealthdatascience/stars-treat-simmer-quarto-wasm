@@ -14,8 +14,147 @@ webr:
 
 {{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
 
-We don't need to run the model code here, so very little interaction with code is required.
-Run only the Run Script.
+```{=html}
+<style type="text/css">
+   .main-container {max-width: 100%;}
+   .row {display: flex;}
+   .column {flex: 50%;}
+</style>
+```
+
+The model code will run when the site is launched, so the only interaction required is changing parameters and running the final code cell. However, the model code is interactive, and can be changed if wished.
+
+### Arrivals data
+
+[Download the data](data/arrivals.csv)
+
+
+## File Upload
+
+Upload a CSV file:
+
+<input type="file" id="fileInput" accept=".csv">
+<button onclick="uploadFile()">Upload</button>
+
+<script>
+async function uploadFile() {
+  const fileInput = document.getElementById('fileInput');
+  const file = fileInput.files[0];
+  if (file) {
+    try {
+      const arrayBuffer = await file.arrayBuffer();
+      const uint8Array = new Uint8Array(arrayBuffer);
+      await webR.FS.writeFile('/home/web_user/' + file.name, uint8Array);
+      console.log('File uploaded successfully');
+      // Optionally, trigger R code execution here
+      await webR.evalR(`
+        data <- read.csv("${file.name}")
+        print(head(data))
+      `);
+    } catch (error) {
+      console.error('Error uploading file:', error);
+    }
+  } else {
+    console.log('No file selected');
+  }
+}
+</script>
+
+## R Code to Process Uploaded File
+
+```{webr-r}
+# This code will run after the file is uploaded
+if (file.exists("arrivals.csv")) {
+  data <- read.csv("arrivals.csv")
+  head(data)
+} else {
+  print("Please upload a file named 'arrivals.csv' first.")
+}
+
+```
+
+
+
+
+
+<!-- ```{=html} -->
+<!-- <script> -->
+<!-- document.getElementById('csvInput').addEventListener('change', handleFileSelect); -->
+<!-- </script> -->
+
+
+<!-- ```{ojs} -->
+<!-- library(quarto) -->
+
+
+<!-- function handleFileSelect(event) { -->
+<!--   const file = event.target.files[0]; -->
+<!--   const reader = new FileReader(); -->
+
+<!--   reader.onload = function(e) { -->
+<!--     const contents = e.target.result; -->
+<!--     // Parse CSV and make it available to OJS -->
+<!--     ojs_define({ -->
+<!--       csvData: d3.csvParse(contents) -->
+<!--     }); -->
+<!--   }; -->
+
+<!--   reader.readAsText(file); -->
+<!-- } -->
+
+<!-- csvData = ojs.define('csvData') -->
+
+<!-- // Now you can use the csvData for analysis -->
+<!-- // For example, to display the first few rows: -->
+<!-- viewof dataPreview = Inputs.table(csvData.slice(0, 5)) -->
+<!-- ``` -->
+
+```{webr}
+# Read the uploaded CSV file
+arrivals <- read.csv("arrivals.csv")
+print(head(arrivals))
+
+```
+
+::::: row
+::: column
+```{webr}
+
+#| echo: false
+#| edit: false
+#| autorun: true
+df <- read.csv("data/arrivals.csv")
+print(df)
+```
+:::
+
+::: column
+```{webr}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(ggplot2)
+
+arrival_data <- function() {
+  csv_data <- "data/arrivals.csv"
+  df <- read.csv(csv_data)
+
+  df$period <- factor(df$period, levels = df$period)
+  return(df)
+}
+
+df_arrival <- arrival_data()
+plot <- ggplot(data = df_arrival, aes(x = period, y = arrival_rate)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) +
+  xlab("Hour of day") +
+  ylab("Mean arrivals (patients/hr)")
+
+print(plot)
+```
+:::
+:::::
 
 ::: {.callout-caution collapse="true" title="Model Code" icon="false"}
 ```{webr}

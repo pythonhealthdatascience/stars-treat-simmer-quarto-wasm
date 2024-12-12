@@ -2,9 +2,12 @@ project:
   type: website
   preview:
     browser: true
+    
+resources:
+  stars_simmer/data/arrivals.csv
 
 website:
-  title: "STARS"
+  title: "STARS: WASM"
   image: "quarto_files/nihr.png"
   favicon: "quarto_files/stars.png"
   repo-url: https://github.com/pythonhealthdatascience
@@ -22,7 +25,7 @@ website:
       - icon: github
         href: https://github.com/pythonhealthdatascience
   navbar:
-    logo: "stars_simmer/www/stars_logo_blue_text.png"
+    logo: "quarto_files/stars.png"
     left:
       - href: index.qmd
         text: Treatment Centre Simulation Model
