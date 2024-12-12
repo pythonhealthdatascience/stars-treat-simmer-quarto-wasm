@@ -3,6 +3,9 @@ project:
   preview:
     browser: true
     
+execute:
+  freeze: auto
+    
 resources:
   stars_simmer/data/arrivals.csv
 
@@ -39,7 +42,7 @@ website:
       - text: "RUNNING THE MODEL"
       - section: "About us"
         contents:
-          - quarto_files/about_stars.qmd
+          - quarto_files/txt/about_stars.qmd
       - section: "Model code"
         contents: 
           - stars_simmer/model.qmd
