@@ -12,34 +12,6 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Treatment Centre Simulation Model",
-    "section": "",
-    "text": "A simple simulation model of an urgent and emergency treatment centre\nYou are using a simmer model deployed using quarto-live. The model and all data are local to your machine. No data are uploaded to a remote server, and all computation takes place in your browser.\nWe have developed a computer based tool for managers of a health clinic for patients with urgent or emergency health problems. The clinic treats patients with minor trauma, such as impact injuries, broken bones, strains or cuts, and non-trauma, such minor illnesses. Patients do not require an appointment to attend the clinic. Patients arrive in an ad-hoc manner over the day, but there is a well known pattern of peak and quiet times throughout the day.\nThe computer tool allows managers to test ways speeding up the clinic processes and improving patient experience. The computer tool allows managers to ask question about the physical design and layout of the clinic, the order in which patients are seen, the diagnostic equipment needed by patients, and the speed of treatments. For example:\n\n“what if we converted a doctors examination room into a room where nurses assess the urgency of the patients needs.”; or\n“what if the number of patients we treat in the afternoon doubled”.\n\nWe call this type of computer model a simulation model. The simulation model is set-up to initially copy the treatment and processes of the real health clinic. For example, in the model the number registration booking clerks, triage rooms, and the time to treat non-trauma patients would all be based on the numbers collected in the real world. All of this data is inputted into the model and a base run of the model is conducted. The model works by generating the arrival of synthetic patients over a working day. The patients follow the simple rules the clinic has for caring for them. For example, non-trauma patients register their details with a booking clerk then wait for to see a nurse who will determine their level of emergency. After the model is run managers can view predictions of the performance of the model. In this study the model predicts waiting times for patients and the percentage of time that rooms and diagnostic equipment are in use.\nThe results from the base run of the simulation model are kept. The managers can then ask their questions and change the data used by the simulation model to be different from the real world; for example, adding an additional triage room. We call this type of ‘what-if’ use of the model an experiment. The model is again run and predictions from the experiment are compared to the base run to investigate if improvement has been achieved.\nFor this study we have included the following experiments:\n\nIncreasing the number of triage rooms by one;\nIncreasing the examination capacity by one;\nIncreasing the number of cubicles to treat non-trauma patients by one;\nCombining additional triage and additional examination capacity."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Model overview",
-    "section": "",
-    "text": "Treatment process:\n\nDaily arrival pattern:"
-  },
-  {
-    "objectID": "about.html#treatment-centre-simulation-model",
-    "href": "about.html#treatment-centre-simulation-model",
-    "title": "Model overview",
-    "section": "",
-    "text": "Treatment process:\n\nDaily arrival pattern:"
-  },
-  {
-    "objectID": "quarto_files/txt/overview.html",
-    "href": "quarto_files/txt/overview.html",
-    "title": "STARS",
-    "section": "",
-    "text": "We have developed a computer based tool for managers of a health clinic for patients with urgent or emergency health problems. The clinic treats patients with minor trauma, such as impact injuries, broken bones, strains or cuts, and non-trauma, such as acute sickness, pain, and general feelings of being unwell. Patients do not require an appointment to attend the clinic. Patients arrive in an ad-hoc manner over the day, but there is a well known pattern of peak and quiet times throughout the day.\nThe computer tool allows managers to test ways speeding up the clinic processes and improving patient experience. The computer tool allows managers to ask question about the physical design and layout of the clinic, the order in which patients are seen, the diagnostic equipment needed by patients, and the speed of treatments. For example:\n\n“what if we converted a doctors examination room into a room where nurses assess the urgency of the patients needs.”; or\n“what if the number of patients we treat in the afternoon doubled”.\n\nWe call this type of computer model a simulation model. The simulation model is set-up to initially copy the treatment and processes of the real health clinic. For example, in the model the number registration booking clerks, triage rooms, and the time to treat non-trauma patients would all be based on the numbers collected in the real world. All of this data is inputted into the model and a base run of the model is conducted. The model works by generating the arrival of synthetic patients over a working day. The patients follow the simple rules the clinic has for caring for them. For example, non-trauma patients register their details with a booking clerk then wait for to see a nurse who will determine their level of emergency. After the model is run managers can view predictions of the performance of the model. In this study the model predicts waiting times for patients and the percentage of time that rooms and diagnostic equipment are in use.\nThe results from the base run of the simulation model are kept. The managers can then ask their questions and change the data used by the simulation model to be different from the real world; for example, adding an additional triage room. We call this type of ‘what-if’ use of the model an experiment. The model is again run and predictions from the experiment are compared to the base run to investigate if improvement has been achieved.\nFor this study we have included the following experiments:\n\nIncreasing the number of triage rooms one;\nIncreasing the number of examination capacity by one;\nIncreasing the number of cubicles to treat non-trauma patients by one;\nCombining additional triage and additional examination capacity."
-  },
-  {
     "objectID": "quarto_files/txt/citation.html",
     "href": "quarto_files/txt/citation.html",
     "title": "Citation",
@@ -47,18 +19,18 @@
     "text": "Citation\nThis project is a work in progress towards the STARS 2.0 framework. You are free to use and build on the work in the interim. For now, if you do adapt or use this material we would be very grateful if you would cite the STARS 1.0 framework paper in the Journal of Simulation.\nMonks, T., Harper, A., & Mustafee, N. (2024). Towards sharing tools and artefacts for reusable simulations in healthcare. Journal of Simulation, 1–20. https://doi.org/10.1080/17477778.2024.2347882\n@article{towards_stars,\nauthor = {Thomas Monks, Alison Harper and Navonil Mustafee},\ntitle = {Towards sharing tools and artefacts for reusable simulations in healthcare},\njournal = {Journal of Simulation},\nvolume = {0},\nnumber = {0},\npages = {1--20},\nyear = {2024},\npublisher = {Taylor \\& Francis},\ndoi = {10.1080/17477778.2024.2347882},\nURL = {https://doi.org/10.1080/17477778.2024.2347882}"
   },
   {
-    "objectID": "quarto_files/txt/about_stars.html",
-    "href": "quarto_files/txt/about_stars.html",
-    "title": "About us",
-    "section": "",
-    "text": "This work is part of the Sharing Tools and Artefacts for Reproducible Simulations (STARS) in Healthcare study.\nThis study is funded UK Research and Innovation (UKRI) Medical Research Council’s (MRC) Better Methods, Better Research programme.\n\n📝 Note: The model presented here is work in progress towards STARS version 2.0.\n\n\nSTARS Team\n\n\n\nMember\nORCID\n\n\n\n\nThomas Monks\n\n\n\nAlison Harper\n\n\n\nNavonil Mustafee\n\n\n\nAndrew Mayne\n\n\n\nAmy Heather\n\n\n\n\n\n\nModelling and Simulation Software\nThe model is written in R and simmer. The simulation library simmer uses a process based model worldview. Given its simplicity it is a highly flexible discrete-event simulation package.\n\nDetailed documentation for simmer can be found here: https://r-simmer.org/\n\n\n\nWebsite\nThe interactive website was developed in Quarto using the Quarto-live extension. Quarto Live enables interactive, WebAssembly powered code blocks to be embedded into Quarto documents with HTML-based output formats.\n\nDetails and documentation can be found here"
-  },
-  {
     "objectID": "quarto_files/txt/LICENSE.html",
     "href": "quarto_files/txt/LICENSE.html",
     "title": "MIT License",
     "section": "",
     "text": "MIT License\nCopyright (c) 2024 STARS Project Team\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Treatment Centre Simulation Model",
+    "section": "",
+    "text": "A simple simulation model of an urgent and emergency treatment centre\nYou are using a simmer model deployed using quarto-live. The model and all data are local to your machine. No data are uploaded to a remote server, and all computation takes place in your browser.\nWe have developed a computer based tool for managers of a health clinic for patients with urgent or emergency health problems. The clinic treats patients with minor trauma, such as impact injuries, broken bones, strains or cuts, and non-trauma, such minor illnesses. Patients do not require an appointment to attend the clinic. Patients arrive in an ad-hoc manner over the day, but there is a well known pattern of peak and quiet times throughout the day.\nThe computer tool allows managers to test ways speeding up the clinic processes and improving patient experience. The computer tool allows managers to ask question about the physical design and layout of the clinic, the order in which patients are seen, the diagnostic equipment needed by patients, and the speed of treatments. For example:\n\n“what if we converted a doctors examination room into a room where nurses assess the urgency of the patients needs.”; or\n“what if the number of patients we treat in the afternoon doubled”.\n\nWe call this type of computer model a simulation model. The simulation model is set-up to initially copy the treatment and processes of the real health clinic. For example, in the model the number registration booking clerks, triage rooms, and the time to treat non-trauma patients would all be based on the numbers collected in the real world. All of this data is inputted into the model and a base run of the model is conducted. The model works by generating the arrival of synthetic patients over a working day. The patients follow the simple rules the clinic has for caring for them. For example, non-trauma patients register their details with a booking clerk then wait for to see a nurse who will determine their level of emergency. After the model is run managers can view predictions of the performance of the model. In this study the model predicts waiting times for patients and the percentage of time that rooms and diagnostic equipment are in use.\nThe results from the base run of the simulation model are kept. The managers can then ask their questions and change the data used by the simulation model to be different from the real world; for example, adding an additional triage room. We call this type of ‘what-if’ use of the model an experiment. The model is again run and predictions from the experiment are compared to the base run to investigate if improvement has been achieved.\nFor this study we have included the following experiments:\n\nIncreasing the number of triage rooms by one;\nIncreasing the examination capacity by one;\nIncreasing the number of cubicles to treat non-trauma patients by one;\nCombining additional triage and additional examination capacity."
   },
   {
     "objectID": "CHANGES.html",
@@ -75,11 +47,63 @@
     "text": ":seedling: First release. Experimental Web App release to feasibility of running R simmer using Shiny and ShinyApps.\n\nMODEL: implemented in R Simmer in model.R\nRESULTS ANALYSIS: tidyverse style as much as possible in output_analysis.R\nAPP: Uses dashboard package. Overview, Interactive, About, License and Citation pages added. Limited interaction."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Model overview",
+    "section": "",
+    "text": "Treatment process:\n\nDaily arrival pattern:"
+  },
+  {
+    "objectID": "about.html#treatment-centre-simulation-model",
+    "href": "about.html#treatment-centre-simulation-model",
+    "title": "Model overview",
+    "section": "",
+    "text": "Treatment process:\n\nDaily arrival pattern:"
+  },
+  {
+    "objectID": "quarto_files/txt/about_stars.html",
+    "href": "quarto_files/txt/about_stars.html",
+    "title": "About us",
+    "section": "",
+    "text": "This work is part of the Sharing Tools and Artefacts for Reproducible Simulations (STARS) in Healthcare study.\nThis study is funded UK Research and Innovation (UKRI) Medical Research Council’s (MRC) Better Methods, Better Research programme.\n\n📝 Note: The model presented here is work in progress towards STARS version 2.0.\n\n\nSTARS Team\n\n\n\nMember\nORCID\n\n\n\n\nThomas Monks\n\n\n\nAlison Harper\n\n\n\nNavonil Mustafee\n\n\n\nAndrew Mayne\n\n\n\nAmy Heather\n\n\n\n\n\n\nModelling and Simulation Software\nThe model is written in R and simmer. The simulation library simmer uses a process based model worldview. Given its simplicity it is a highly flexible discrete-event simulation package.\n\nDetailed documentation for simmer can be found here: https://r-simmer.org/\n\n\n\nWebsite\nThe interactive website was developed in Quarto using the Quarto-live extension. Quarto Live enables interactive, WebAssembly powered code blocks to be embedded into Quarto documents with HTML-based output formats.\n\nDetails and documentation can be found here"
+  },
+  {
+    "objectID": "quarto_files/txt/overview.html",
+    "href": "quarto_files/txt/overview.html",
+    "title": "STARS: WASM",
+    "section": "",
+    "text": "We have developed a computer based tool for managers of a health clinic for patients with urgent or emergency health problems. The clinic treats patients with minor trauma, such as impact injuries, broken bones, strains or cuts, and non-trauma, such as acute sickness, pain, and general feelings of being unwell. Patients do not require an appointment to attend the clinic. Patients arrive in an ad-hoc manner over the day, but there is a well known pattern of peak and quiet times throughout the day.\nThe computer tool allows managers to test ways speeding up the clinic processes and improving patient experience. The computer tool allows managers to ask question about the physical design and layout of the clinic, the order in which patients are seen, the diagnostic equipment needed by patients, and the speed of treatments. For example:\n\n“what if we converted a doctors examination room into a room where nurses assess the urgency of the patients needs.”; or\n“what if the number of patients we treat in the afternoon doubled”.\n\nWe call this type of computer model a simulation model. The simulation model is set-up to initially copy the treatment and processes of the real health clinic. For example, in the model the number registration booking clerks, triage rooms, and the time to treat non-trauma patients would all be based on the numbers collected in the real world. All of this data is inputted into the model and a base run of the model is conducted. The model works by generating the arrival of synthetic patients over a working day. The patients follow the simple rules the clinic has for caring for them. For example, non-trauma patients register their details with a booking clerk then wait for to see a nurse who will determine their level of emergency. After the model is run managers can view predictions of the performance of the model. In this study the model predicts waiting times for patients and the percentage of time that rooms and diagnostic equipment are in use.\nThe results from the base run of the simulation model are kept. The managers can then ask their questions and change the data used by the simulation model to be different from the real world; for example, adding an additional triage room. We call this type of ‘what-if’ use of the model an experiment. The model is again run and predictions from the experiment are compared to the base run to investigate if improvement has been achieved.\nFor this study we have included the following experiments:\n\nIncreasing the number of triage rooms one;\nIncreasing the number of examination capacity by one;\nIncreasing the number of cubicles to treat non-trauma patients by one;\nCombining additional triage and additional examination capacity."
+  },
+  {
     "objectID": "stars_simmer/model_int.html",
     "href": "stars_simmer/model_int.html",
     "title": "Interactive DES Model",
     "section": "",
-    "text": "We don’t need to run the model code here, so very little interaction with code is required. Run only the Run Script.\n\n\n\n\n\n\nModel Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutput Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof dn_triage = Inputs.range([1, 10], {step: 1, label: \"Triage Bays\"});\nviewof dn_reg = Inputs.range([1, 10], {step: 1, label: \"Registration Clerks\"});\nviewof dn_exam = Inputs.range([1, 10], {step: 1, label: \"Examination Rooms\"});\nviewof dn_nt_cubicles = Inputs.range([1, 10], {step: 1, label: \"Non-trauma Cubicles\"});\nviewof dn_trauma = Inputs.range([1, 10], {step: 1, label: \"Stabilisation Rooms\"});\nviewof dn_trauma_cubicles = Inputs.range([1, 10], {step: 1, label: \"Trauma Cubicles\"});\n\n// debounce to avoid recalculations too quickly\nn_triage = debounce(viewof dn_triage);\nn_reg = debounce(viewof dn_reg);\nn_exam = debounce(viewof dn_exam);\nn_nt_cubicles = debounce(viewof dn_nt_cubicles);\nn_trauma = debounce(viewof dn_trauma);\nn_trauma_cubicles = debounce(viewof dn_trauma_cubicles);\n\n// debounce function\nfunction debounce(input, delay = 1000) {\n  return Generators.observe(notify =&gt; {\n    let timer = null;\n    let value;\n    function inputted() {\n      if (timer != null) return;\n      notify(value = input.value);\n      timer = setTimeout(delayed, delay);\n    }\n    function delayed() {\n      timer = null;\n      if (value === input.value) return;\n      notify(value = input.value);\n   }\n   input.addEventListener(\"input\", inputted), inputted();\n   return () =&gt; input.removeEventListener(\"input\", inputted);\n   });\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRun Script",
+    "text": "The model code will run when the site is launched, so the only interaction required is changing parameters and running the final code cell. However, the model code is interactive, and can be changed if wished.",
+    "crumbs": [
+      "Treatment Centre Simulation Model",
+      "Model code",
+      "Interactive DES Model"
+    ]
+  },
+  {
+    "objectID": "stars_simmer/model_int.html#file-upload",
+    "href": "stars_simmer/model_int.html#file-upload",
+    "title": "Interactive DES Model",
+    "section": "File Upload",
+    "text": "File Upload\nUpload a CSV file:\n Upload",
+    "crumbs": [
+      "Treatment Centre Simulation Model",
+      "Model code",
+      "Interactive DES Model"
+    ]
+  },
+  {
+    "objectID": "stars_simmer/model_int.html#r-code-to-process-uploaded-file",
+    "href": "stars_simmer/model_int.html#r-code-to-process-uploaded-file",
+    "title": "Interactive DES Model",
+    "section": "R Code to Process Uploaded File",
+    "text": "R Code to Process Uploaded File\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModel Code\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOutput Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof dn_triage = Inputs.range([1, 10], {step: 1, label: \"Triage Bays\"});\nviewof dn_reg = Inputs.range([1, 10], {step: 1, label: \"Registration Clerks\"});\nviewof dn_exam = Inputs.range([1, 10], {step: 1, label: \"Examination Rooms\"});\nviewof dn_nt_cubicles = Inputs.range([1, 10], {step: 1, label: \"Non-trauma Cubicles\"});\nviewof dn_trauma = Inputs.range([1, 10], {step: 1, label: \"Stabilisation Rooms\"});\nviewof dn_trauma_cubicles = Inputs.range([1, 10], {step: 1, label: \"Trauma Cubicles\"});\n\n// debounce to avoid recalculations too quickly\nn_triage = debounce(viewof dn_triage);\nn_reg = debounce(viewof dn_reg);\nn_exam = debounce(viewof dn_exam);\nn_nt_cubicles = debounce(viewof dn_nt_cubicles);\nn_trauma = debounce(viewof dn_trauma);\nn_trauma_cubicles = debounce(viewof dn_trauma_cubicles);\n\n// debounce function\nfunction debounce(input, delay = 1000) {\n  return Generators.observe(notify =&gt; {\n    let timer = null;\n    let value;\n    function inputted() {\n      if (timer != null) return;\n      notify(value = input.value);\n      timer = setTimeout(delayed, delay);\n    }\n    function delayed() {\n      timer = null;\n      if (value === input.value) return;\n      notify(value = input.value);\n   }\n   input.addEventListener(\"input\", inputted), inputted();\n   return () =&gt; input.removeEventListener(\"input\", inputted);\n   });\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRun Script",
     "crumbs": [
       "Treatment Centre Simulation Model",
       "Model code",
